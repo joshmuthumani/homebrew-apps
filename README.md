@@ -17,7 +17,8 @@ Mac apps each hide their shortcuts in their own menus, and you only learn them o
 - **All running apps at once.** Keyfold reads each app's menu bar and lists every shortcut with its menu path, for example `⌘C  Copy · Edit › Copy`.
 - **Search that understands keys.** Type `ctrl shift c`, `copy` or the app name. Modifier words and glyphs both work.
 - **Group by app or by shortcut.** The second view collects the same combo across apps, so you can see where the same keys do different things.
-- **Menu-bar apps included.** Apps that live only in your menu bar are listed too, with the shortcuts their menu shows.
+- **macOS system shortcuts.** Mission Control, Spaces, VoiceOver, Dock hiding and the others you have switched on, listed under "macOS".
+- **Menu-bar apps included.** Apps that live only in your menu bar are listed with the shortcuts their menu shows, and global hotkeys that Keyfold can read from apps such as Shottr, Supercharge, Rectangle and Raycast.
 - **Unreadable apps are labelled**, not silently dropped.
 
 ## Install
@@ -46,11 +47,13 @@ Everything happens on your Mac. Keyfold reads menu titles and shortcuts, keeps n
 - Keyfold scans when you open the window or press Refresh. An app that is not running will not appear: open it, then refresh.
 - It lists what apps put in their menus. Keys an app handles inside its own window and never lists in a menu (Figma's `V` for Move, for example) cannot be seen.
 - Some apps fill their menus only after you open them, so a few of their shortcuts may be missing.
+- A menu-bar app whose icon is hidden (Rectangle with its icon off, for example) shows only what its saved settings reveal.
+- macOS blocks reading some sandboxed apps' settings; those apps still show what their menu lists.
 - Keyfold is notarized by Apple but is not on the Mac App Store: reading other apps' menus is not allowed in the App Store sandbox.
 
 ## Coming next
 
-Shortcuts from macOS itself (Mission Control, screenshots, Spaces), global hotkeys of menu-bar apps where Keyfold can read them, and, later, conflict detection that flags two apps fighting over the same keys.
+Conflict detection that flags two apps fighting over the same keys, and more global-hotkey sources (Karabiner, FluidVoice).
 
 ## Feedback
 
