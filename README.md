@@ -1,8 +1,24 @@
-# Keyfold
+<p align="center">
+  <img src="icon.png" alt="Keyfold icon" width="128" height="128">
+</p>
 
-Keyfold lists the keyboard shortcuts of every app running on your Mac in one searchable window.
+<h1 align="center">Keyfold</h1>
 
-This repository holds the signed, notarized app and its Homebrew cask. The source lives elsewhere.
+<p align="center">
+  Every keyboard shortcut on your Mac, in one searchable list.
+</p>
+
+---
+
+Mac apps each hide their shortcuts in their own menus, and you only learn them one app at a time. Keyfold asks every app you have running and shows all of their shortcuts in a single window, in the glyphs you already know (⌘⇧⌥⌃), so you can search for a key, a command or an app instead of hunting through menus.
+
+## What you get
+
+- **All running apps at once.** Keyfold reads each app's menu bar and lists every shortcut with its menu path, for example `⌘C  Copy · Edit › Copy`.
+- **Search that understands keys.** Type `ctrl shift c`, `copy` or the app name. Modifier words and glyphs both work.
+- **Group by app or by shortcut.** The second view collects the same combo across apps, so you can see where the same keys do different things.
+- **Menu-bar apps included.** Apps that live only in your menu bar are listed too, with the shortcuts their menu shows.
+- **Unreadable apps are labelled**, not silently dropped.
 
 ## Install
 
@@ -11,12 +27,33 @@ brew tap joshmuthumani/apps
 brew install --cask joshmuthumani/apps/keyfold
 ```
 
-Update with `brew upgrade --cask joshmuthumani/apps/keyfold`.
+Update later with `brew upgrade --cask joshmuthumani/apps/keyfold`. Remove with `brew uninstall --cask joshmuthumani/apps/keyfold`.
 
-Or download the zip from the [latest release](https://github.com/joshmuthumani/homebrew-apps/releases/latest), unzip it and drag Keyfold to Applications.
+Prefer not to use Homebrew? Download `Keyfold-<version>.zip` from the [latest release](https://github.com/joshmuthumani/homebrew-apps/releases/latest), unzip it and drag Keyfold to Applications.
 
-## Requirements
+**Requirements:** an Apple Silicon Mac (M1 or newer) running macOS 26 or newer.
 
-- Apple Silicon Mac (M1 or newer)
-- macOS 26 or newer
-- Keyfold asks for Accessibility access on first launch: it reads other apps' menus through it. Click "Open Accessibility Settings" and switch Keyfold on.
+## First launch
+
+Keyfold needs the macOS **Accessibility** permission, because that is how it reads other apps' menus. On first launch it shows a button, "Open Accessibility Settings". Switch Keyfold on and the list appears by itself.
+
+## Privacy
+
+Everything happens on your Mac. Keyfold reads menu titles and shortcuts, keeps nothing except your Group by choice, and sends nothing anywhere.
+
+## Good to know
+
+- Keyfold scans when you open the window or press Refresh. An app that is not running will not appear: open it, then refresh.
+- It lists what apps put in their menus. Keys an app handles inside its own window and never lists in a menu (Figma's `V` for Move, for example) cannot be seen.
+- Some apps fill their menus only after you open them, so a few of their shortcuts may be missing.
+- Keyfold is notarized by Apple but is not on the Mac App Store: reading other apps' menus is not allowed in the App Store sandbox.
+
+## Coming next
+
+Shortcuts from macOS itself (Mission Control, screenshots, Spaces), global hotkeys of menu-bar apps where Keyfold can read them, and, later, conflict detection that flags two apps fighting over the same keys.
+
+## Feedback
+
+This is an early release for a small group. Please [open an issue](https://github.com/joshmuthumani/homebrew-apps/issues) with what you see, including the app that misbehaved and your macOS version.
+
+© 2026 Josh Muthumani. All rights reserved.
