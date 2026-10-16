@@ -7,7 +7,8 @@ This repository holds the signed, notarized app and its Homebrew cask. The sourc
 ## Install
 
 ```bash
-brew install --cask joshmuthumani/keyfold/keyfold
+brew tap joshmuthumani/keyfold
+brew install --cask keyfold
 ```
 
 Update with `brew upgrade --cask keyfold`.
