@@ -11,7 +11,7 @@ brew tap joshmuthumani/keyfold
 brew install --cask joshmuthumani/keyfold/keyfold
 ```
 
-Update with `brew upgrade --cask keyfold`.
+Update with `brew upgrade --cask joshmuthumani/keyfold/keyfold`.
 
 Or download the zip from the [latest release](https://github.com/joshmuthumani/homebrew-keyfold/releases/latest), unzip it and drag Keyfold to Applications.
 
