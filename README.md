@@ -7,13 +7,12 @@ This repository holds the signed, notarized app and its Homebrew cask. The sourc
 ## Install
 
 ```bash
-brew tap joshmuthumani/keyfold https://github.com/joshmuthumani/keyfold.git
-brew install --cask keyfold
+brew install --cask joshmuthumani/keyfold/keyfold
 ```
 
 Update with `brew upgrade --cask keyfold`.
 
-Or download the zip from the [latest release](https://github.com/joshmuthumani/keyfold/releases/latest), unzip it and drag Keyfold to Applications.
+Or download the zip from the [latest release](https://github.com/joshmuthumani/homebrew-keyfold/releases/latest), unzip it and drag Keyfold to Applications.
 
 ## Requirements
 
