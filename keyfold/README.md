@@ -30,7 +30,7 @@ brew install --cask joshmuthumani/apps/keyfold
 
 Update later with `brew upgrade --cask joshmuthumani/apps/keyfold`. Remove with `brew uninstall --cask joshmuthumani/apps/keyfold`.
 
-Prefer not to use Homebrew? Download `Keyfold-<version>.zip` from the [latest Keyfold release](https://github.com/joshmuthumani/homebrew-apps/releases?q=keyfold-v&expanded=true), unzip it and drag Keyfold to Applications.
+Prefer not to use Homebrew? Download `Keyfold-<version>.zip` from the [Keyfold releases](https://github.com/joshmuthumani/homebrew-apps/releases?q=keyfold-v&expanded=true), unzip it and drag Keyfold to Applications.
 
 **Requirements:** an Apple Silicon Mac (M1 or newer) running macOS 26 or newer.
 
