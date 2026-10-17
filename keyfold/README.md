@@ -55,6 +55,11 @@ Everything happens on your Mac. Keyfold reads menu titles and shortcuts, keeps n
 
 Conflict detection that flags two apps fighting over the same keys, and more global-hotkey sources (Karabiner, FluidVoice).
 
+## Releases
+
+- [**0.2.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.2.0) (2026-10-16): macOS system shortcuts, shortcuts from menu-bar apps' status menus, global hotkeys you have changed in Shottr, Supercharge, Rectangle and others, Raycast's main hotkey, and a new icon.
+- [**0.1.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.1.0) (2026-10-16): first test release. Lists the menu-bar shortcuts of every running app, with search and grouping.
+
 ## Feedback
 
 This is an early release for a small group. Please [open an issue](https://github.com/joshmuthumani/homebrew-apps/issues) with what you see, including the app that misbehaved and your macOS version.
