@@ -57,6 +57,7 @@ Conflict detection that flags two apps fighting over the same keys, and more glo
 
 ## Releases
 
+- [**0.3.1**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.1) (2026-10-17): fixes a long list pinning a closed group's header over the group you are reading.
 - [**0.3.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.0) (2026-10-17): a disk image to download, shortcuts in a clear accent colour, group headers that stay in view, View menu commands, and a simpler permission screen.
 - [**0.2.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.2.0) (2026-10-16): macOS system shortcuts, shortcuts from menu-bar apps' status menus, global hotkeys you have changed in Shottr, Supercharge, Rectangle and others, Raycast's main hotkey, and a new icon.
 - [**0.1.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.1.0) (2026-10-16): first test release. Lists the menu-bar shortcuts of every running app, with search and grouping.
