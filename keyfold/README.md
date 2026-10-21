@@ -14,6 +14,12 @@
 
 Forgot the shortcut for a command? Want to see what the same keys do in different apps? Keyfold brings your running apps’ menu shortcuts, macOS system shortcuts and supported global hotkeys into one searchable list. Each shortcut shows its app, key combination and command, with the menu path where available.
 
+<p align="center">
+  <img src="screenshots/search-copy.png" alt="Keyfold searching for copy across running Mac apps, with key combinations and menu paths" width="1000">
+</p>
+
+*Search for a command across running apps without opening each app’s menus.*
+
 ## What you can do
 
 - **Search by app, command or keys.** Try `Safari`, `copy` or `ctrl shift c`. Modifier names and macOS symbols (⌘ ⇧ ⌥ ⌃) both work.
@@ -21,6 +27,32 @@ Forgot the shortcut for a command? Want to see what the same keys do in differen
 - **Find macOS system shortcuts.** Enabled shortcuts for Mission Control, Spaces, VoiceOver, the Dock and more appear under **macOS**.
 - **Include background apps.** Keyfold reads their status menus and supported saved global-hotkey settings, including changed shortcuts in Shottr, Supercharge and Rectangle, plus Raycast’s main hotkey.
 - **Scan when you need it.** Open another app and click **Refresh** (⌘R) to include it. Apps whose menus cannot be read are labelled with a reason.
+
+## More screenshots
+
+<details>
+<summary>Browse an app’s shortcuts and menu paths</summary>
+
+<p>
+  <img src="screenshots/browse-finder.png" alt="Keyfold filtered to Finder, showing its keyboard shortcuts and the menu path for each command" width="1000">
+</p>
+
+Search for an app to explore its shortcuts. Each command shows where it lives in the menus.
+
+</details>
+
+<details>
+<summary>Compare what the same keys do in different apps</summary>
+
+<p>
+  <img src="screenshots/group-by-shortcut.png" alt="Keyfold grouped by shortcut, comparing copy commands that use the same key combinations in different apps" width="1000">
+</p>
+
+Group by shortcut to compare commands across apps. A shared menu shortcut is not automatically a conflict.
+
+</details>
+
+*Screenshots show Keyfold 0.3.1. Your results depend on the apps you have running and their settings.*
 
 ## Install
 
