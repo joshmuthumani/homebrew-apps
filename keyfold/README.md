@@ -15,10 +15,10 @@
 Forgot the shortcut for a command? Want to see what the same keys do in different apps? Keyfold brings your running apps’ menu shortcuts, macOS system shortcuts and supported global hotkeys into one searchable list. Each shortcut shows its app, key combination and command, with the menu path where available.
 
 <p align="center">
-  <img src="screenshots/search-copy.png" alt="Keyfold searching for copy across running Mac apps, with key combinations and menu paths" width="1000">
+  <img src="screenshots/browse-multiple-apps.png" alt="Keyfold browsing shortcuts across Fantastical and Fastmail in one window, with app groups, key combinations and menu paths" width="1000">
 </p>
 
-*Search for a command across running apps without opening each app’s menus.*
+*Browse shortcuts from multiple running apps in one window.*
 
 ## What you can do
 
@@ -29,6 +29,23 @@ Forgot the shortcut for a command? Want to see what the same keys do in differen
 - **Scan when you need it.** Open another app and click **Refresh** (⌘R) to include it. Apps whose menus cannot be read are labelled with a reason.
 
 ## More screenshots
+
+<p align="center">
+  <img src="screenshots/compare-across-apps.png" alt="Keyfold grouped by shortcut, showing Command-right-bracket across ten apps with commands including Forward, Go to Next Occurrence and Increase Line Indent" width="1000">
+</p>
+
+*See what the same keys do across apps. Here, ⌘] means Forward in several apps, Go to Next Occurrence in Fantastical, and Increase Line Indent in Nextpad++.*
+
+<details>
+<summary>Search for a command across running apps</summary>
+
+<p>
+  <img src="screenshots/search-copy.png" alt="Keyfold searching for copy across running Mac apps, with key combinations and menu paths" width="1000">
+</p>
+
+Search for a command without opening each app’s menus.
+
+</details>
 
 <details>
 <summary>Browse an app’s shortcuts and menu paths</summary>
@@ -42,7 +59,7 @@ Search for an app to explore its shortcuts. Each command shows where it lives in
 </details>
 
 <details>
-<summary>Compare what the same keys do in different apps</summary>
+<summary>Compare copy-related key combinations</summary>
 
 <p>
   <img src="screenshots/group-by-shortcut.png" alt="Keyfold grouped by shortcut, comparing copy commands that use the same key combinations in different apps" width="1000">
@@ -52,7 +69,7 @@ Group by shortcut to compare commands across apps. A shared menu shortcut is not
 
 </details>
 
-*Screenshots show Keyfold 0.3.1. Your results depend on the apps you have running and their settings.*
+*Screenshots show real app menus. Your results depend on the apps you have running and their settings.*
 
 ## Install
 
