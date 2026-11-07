@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.2">Download v0.3.2</a> · Apple silicon · macOS 26 (Tahoe) or later
+  <a href="https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.3">Download v0.3.3</a> · Apple silicon · macOS 26 (Tahoe) or later
 </p>
 
 Forgot the shortcut for a command? Want to see what the same keys do in different apps? Keyfold brings your running apps’ menu shortcuts, macOS system shortcuts and supported global hotkeys into one searchable list. Each shortcut shows its app, key combination and command, with the menu path where available.
@@ -80,7 +80,7 @@ brew tap joshmuthumani/apps
 brew install --cask joshmuthumani/apps/keyfold
 ```
 
-**Or download directly:** open the [Keyfold 0.3.2 release](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.2), download `Keyfold-0.3.2.dmg`, open it, and drag **Keyfold** to **Applications**. A ZIP is also available.
+**Or download directly:** open the [Keyfold 0.3.3 release](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.3), download `Keyfold-0.3.3.dmg`, open it, and drag **Keyfold** to **Applications**. A ZIP is also available.
 
 **Requirements:** an Apple silicon Mac (M1 or newer) running **macOS 26 (Tahoe) or later**. Intel Macs are not supported. Keyfold is Developer ID signed and notarized by Apple, and distributed outside the Mac App Store.
 
@@ -133,6 +133,8 @@ Keyfold is an early release. Found a missing shortcut or an app it cannot read? 
 Please remove private document names or menu titles from screenshots before sharing them.
 
 ## Releases
+
+- [**0.3.3**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.3) (2026-11-07): renders shortcut modifiers and keys as separate keycaps, with clearer spacing.
 
 - [**0.3.2**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.2) (2026-11-06): adds enabled Vorssaint shortcuts, modifier-only shortcuts, a Preferences unavailable notice, and excludes Keyfold from its own scan.
 - [**0.3.1**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.1) (2026-10-17): fixes a long list pinning a closed group’s header over the group you are reading.
