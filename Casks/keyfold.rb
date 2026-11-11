@@ -1,6 +1,6 @@
 cask "keyfold" do
-  version "0.3.3"
-  sha256 "90b21fc35de2a22f626ce37b377cd5484d533b150cbad4412d2c78083e9e54ae"
+  version "0.3.4"
+  sha256 "c2d438da01158af787bc15ffe8a9deb5520df3da2edaab51979fc51862f5a79b"
 
   url "https://github.com/joshmuthumani/homebrew-apps/releases/download/keyfold-v#{version}/Keyfold-#{version}.zip"
   name "Keyfold"
