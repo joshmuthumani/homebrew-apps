@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Keyfold</title>
+    <item>
+      <title>Keyfold 0.4.0</title>
+      <link>https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.4.0</link>
+      <sparkle:releaseNotesLink>https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.4.0</sparkle:releaseNotesLink>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <pubDate>Wed, 18 Nov 2026 18:36:44 +0000</pubDate>
+      <enclosure url="https://github.com/joshmuthumani/homebrew-apps/releases/download/keyfold-v0.4.0/Keyfold-0.4.0.zip" sparkle:edSignature="uxRjb5FPgbPbRLnC7IhElLWvFTyy+t0R2W5n7uJjkOkbYuLtROYcIaKEizuQoL7lbMDT9mc0t7jx4eV8ysH2AQ==" length="1907824" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
