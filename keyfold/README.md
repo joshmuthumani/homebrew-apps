@@ -87,11 +87,13 @@ brew install --cask joshmuthumani/apps/keyfold
 <details>
 <summary>Update or uninstall with Homebrew</summary>
 
-Update:
+Update: Keyfold 0.4.0 and later update themselves (Keyfold › Check for Updates…). Plain `brew upgrade` skips Keyfold because it updates itself, so from the command line use:
 
 ```bash
-brew upgrade --cask joshmuthumani/apps/keyfold
+brew upgrade --cask --greedy-auto-updates joshmuthumani/apps/keyfold
 ```
+
+or `brew reinstall --cask joshmuthumani/apps/keyfold` (older versions need one of these to reach 0.4.0).
 
 Uninstall:
 
