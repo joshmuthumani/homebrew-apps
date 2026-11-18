@@ -5,145 +5,71 @@
 <h1 align="center">Keyfold</h1>
 
 <p align="center">
-  Find keyboard shortcuts across your Mac apps in one searchable window.
+  Every keyboard shortcut on your Mac, in one searchable list.
 </p>
 
-<p align="center">
-  <a href="https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.4">Download v0.3.4</a> · Apple silicon · macOS 26 (Tahoe) or later
-</p>
+---
 
-Forgot the shortcut for a command? Want to see what the same keys do in different apps? Keyfold brings your running apps’ menu shortcuts, macOS system shortcuts and supported global hotkeys into one searchable list. Each shortcut shows its app, key combination and command, with the menu path where available.
+Mac apps each hide their shortcuts in their own menus, and you only learn them one app at a time. Keyfold asks every app you have running and shows all of their shortcuts in a single window, in the glyphs you already know (⌘⇧⌥⌃), so you can search for a key, a command or an app instead of hunting through menus.
 
-<p align="center">
-  <img src="screenshots/browse-multiple-apps.png" alt="Keyfold browsing shortcuts across Fantastical and Fastmail in one window, with app groups, key combinations and menu paths" width="1000">
-</p>
+## What you get
 
-*Browse shortcuts from multiple running apps in one window.*
-
-## What you can do
-
-- **Search by app, command or keys.** Try `Safari`, `copy` or `ctrl shift c`. Modifier names and macOS symbols (⌘ ⇧ ⌥ ⌃) both work; modifier-only shortcuts retain left/right identity when a source provides it.
-- **Browse by app or group by shortcut.** Expand an app to explore its commands, or compare what a key combination does across apps. Keyfold remembers your grouping choice.
-- **Find macOS system shortcuts.** Enabled shortcuts for Mission Control, Spaces, VoiceOver, the Dock and more appear under **macOS**.
-- **Include background apps.** Keyfold reads their status menus and supported saved global-hotkey settings, including changed shortcuts in Shottr, Supercharge and Rectangle, Raycast’s main hotkey, and enabled shortcuts saved by Vorssaint.
-- **Scan when you need it.** Open another app and click **Refresh** (⌘R) to include it. Apps whose menus cannot be read are labelled with a reason.
-
-## More screenshots
-
-<p align="center">
-  <img src="screenshots/compare-across-apps.png" alt="Keyfold grouped by shortcut, showing Command-right-bracket across ten apps with commands including Forward, Go to Next Occurrence and Increase Line Indent" width="1000">
-</p>
-
-*See what the same keys do across apps. Here, ⌘] means Forward in several apps, Go to Next Occurrence in Fantastical, and Increase Line Indent in Nextpad++.*
-
-<details>
-<summary>Search for a command across running apps</summary>
-
-<p>
-  <img src="screenshots/search-copy.png" alt="Keyfold searching for copy across running Mac apps, with key combinations and menu paths" width="1000">
-</p>
-
-Search for a command without opening each app’s menus.
-
-</details>
-
-<details>
-<summary>Browse an app’s shortcuts and menu paths</summary>
-
-<p>
-  <img src="screenshots/browse-finder.png" alt="Keyfold filtered to Finder, showing its keyboard shortcuts and the menu path for each command" width="1000">
-</p>
-
-Search for an app to explore its shortcuts. Each command shows where it lives in the menus.
-
-</details>
-
-<details>
-<summary>Compare copy-related key combinations</summary>
-
-<p>
-  <img src="screenshots/group-by-shortcut.png" alt="Keyfold grouped by shortcut, comparing copy commands that use the same key combinations in different apps" width="1000">
-</p>
-
-Group by shortcut to compare commands across apps. A shared menu shortcut is not automatically a conflict.
-
-</details>
-
-*Screenshots show real app menus. Your results depend on the apps you have running and their settings.*
+- **All running apps at once.** Keyfold reads each app's menu bar and lists every shortcut with its menu path, for example `⌘C  Copy · Edit › Copy`.
+- **Search that understands keys.** Type `ctrl shift c`, `copy` or the app name. Modifier words and glyphs both work.
+- **Group by app or by shortcut.** The second view collects the same combo across apps, so you can see where the same keys do different things.
+- **macOS system shortcuts.** Mission Control, Spaces, VoiceOver, Dock hiding and the others you have switched on, listed under "macOS".
+- **Menu-bar apps included.** Apps that live only in your menu bar are listed with the shortcuts their menu shows, and global hotkeys that Keyfold can read from apps such as Shottr, Supercharge, Rectangle and Raycast.
+- **Unreadable apps are labelled**, not silently dropped.
 
 ## Install
-
-With [Homebrew](https://brew.sh):
 
 ```bash
 brew tap joshmuthumani/apps
 brew install --cask joshmuthumani/apps/keyfold
 ```
 
-**Or download directly:** open the [Keyfold 0.3.4 release](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.4), download `Keyfold-0.3.4.dmg`, open it, and drag **Keyfold** to **Applications**. A ZIP is also available.
+Update later with `brew upgrade --cask joshmuthumani/apps/keyfold`. Remove with `brew uninstall --cask joshmuthumani/apps/keyfold`.
 
-**Requirements:** an Apple silicon Mac (M1 or newer) running **macOS 26 (Tahoe) or later**. Intel Macs are not supported. Keyfold is Developer ID signed and notarized by Apple, and distributed outside the Mac App Store.
+Prefer not to use Homebrew? Download `Keyfold-<version>.dmg` from the [Keyfold releases](https://github.com/joshmuthumani/homebrew-apps/releases?q=keyfold-v&expanded=true), open it and drag Keyfold to Applications. Releases before 0.3.0 have a zip instead: unzip it and drag Keyfold to Applications.
 
-<details>
-<summary>Update or uninstall with Homebrew</summary>
-
-Update:
-
-```bash
-brew upgrade --cask joshmuthumani/apps/keyfold
-```
-
-Uninstall:
-
-```bash
-brew uninstall --cask joshmuthumani/apps/keyfold
-```
-
-</details>
+**Requirements:** an Apple Silicon Mac (M1 or newer) running macOS 26 or newer.
 
 ## First launch
 
-1. Open **Keyfold** from Applications.
-2. Click **Open Accessibility Settings** and enable Keyfold under **System Settings → Privacy & Security → Accessibility**. Keyfold needs this permission to read other apps’ menus; the shortcut list appears automatically after access is granted.
-3. Search for a command such as `copy`, or expand an app to browse. Switch **Group by** to **Shortcut** to compare key combinations across apps.
-
-Keyfold is a viewer: it does not edit or remap your shortcuts. The same menu shortcut in two apps is usually normal, because each app handles it only while active. **Conflict detection is not included yet.**
+Keyfold needs the macOS **Accessibility** permission, because that is how it reads other apps' menus. On first launch it shows a button, "Open Accessibility Settings". Switch Keyfold on and the list appears by itself.
 
 ## Privacy
 
-Everything happens on your Mac. Keyfold reads app menus, macOS shortcut settings and supported apps’ saved global-hotkey settings. Nothing is sent off your Mac, and there are no accounts or analytics.
+Everything happens on your Mac. Keyfold reads menu titles and shortcuts, keeps nothing except your Group by choice, and sends nothing anywhere.
 
-Keyfold saves only your **Group by** choice. It does not keep a shortcut history or a saved catalog of closed apps.
+## Good to know
 
-## Current limits
+- Keyfold scans when you open the window or press Refresh. An app that is not running will not appear: open it, then refresh.
+- It lists what apps put in their menus. Keys an app handles inside its own window and never lists in a menu (Figma's `V` for Move, for example) cannot be seen.
+- Some apps fill their menus only after you open them, so a few of their shortcuts may be missing.
+- A menu-bar app whose icon is hidden (Rectangle with its icon off, for example) shows only what its saved settings reveal.
+- Keyfold does not request the extra access some apps’ saved shortcut preferences may require. Some shortcuts may be missing; unsupported formats and shortcuts an app does not save may also be unavailable.
+- If Homebrew says Keyfold is already installed but `/Applications/Keyfold.app` is missing, the Caskroom receipt may be stale. Run `brew reinstall --cask joshmuthumani/apps/keyfold` to recover the installation.
+- Keyfold is notarized by Apple but is not on the Mac App Store: reading other apps' menus is not allowed in the App Store sandbox.
 
-- **Running apps only.** Open an app, then refresh to include it. Keyfold scans when you open the window or click Refresh; it does not monitor apps in the background.
-- **Menus do not expose every shortcut.** In-window shortcuts absent from menus, such as Figma’s `V` for Move, cannot be seen. Apps that populate menus lazily may need their menus opened before a fresh scan.
-- **Global-hotkey coverage varies.** A hidden status-bar icon limits what Keyfold can read from that app’s menu. Keyfold does not request extra access to read some apps’ saved shortcut preferences, so some shortcuts may be missing; readable menu shortcuts still appear.
-- **No conflict detection yet.** Keyfold does not support every app’s saved global-hotkey format; additional formats may be supported as they are researched.
+## Coming next
 
-## Feedback
-
-Keyfold is an early release. Found a missing shortcut or an app it cannot read? [Open an issue](https://github.com/joshmuthumani/homebrew-apps/issues/new?title=Keyfold%3A%20) with:
-
-- Your Keyfold and macOS versions.
-- The affected app’s name and version.
-- The shortcut or command you expected, and what Keyfold showed.
-
-Please remove private document names or menu titles from screenshots before sharing them.
+Conflict detection that flags two apps fighting over the same keys, and more supported global-hotkey sources.
 
 ## Releases
 
+- [**0.3.5**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.5) (2026-11-18): stops one slow app from holding up scans and refreshes.
 - [**0.3.4**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.4) (2026-11-11): fixes shortcut searches and key decoding, and improves scan reliability.
 
-- [**0.3.3**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.3) (2026-11-07): renders shortcut modifiers and keys as separate keycaps, with clearer spacing.
-
-- [**0.3.2**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.2) (2026-11-06): adds enabled Vorssaint shortcuts, modifier-only shortcuts, a Preferences unavailable notice, and excludes Keyfold from its own scan.
-- [**0.3.1**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.1) (2026-10-17): fixes a long list pinning a closed group’s header over the group you are reading.
+- [**0.3.3**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.3) (2026-11-07): renders shortcut chords as separate keycaps, with clearer spacing.
+- [**0.3.2**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.2) (2026-11-06): adds support for Vorssaint's saved shortcuts and modifier-only shortcuts, distinguishes inaccessible preferences, and stops Keyfold listing itself.
+- [**0.3.1**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.1) (2026-10-17): fixes a long list pinning a closed group's header over the group you are reading.
 - [**0.3.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.0) (2026-10-17): a disk image to download, shortcuts in a clear accent colour, group headers that stay in view, View menu commands, and a simpler permission screen.
-- [**0.2.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.2.0) (2026-10-16): macOS system shortcuts, shortcuts from background apps’ status menus, global hotkeys you have changed in Shottr, Supercharge, Rectangle and others, Raycast’s main hotkey, and a new icon.
-- [**0.1.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.1.0) (2026-10-16): first test release. Lists the menu shortcuts of every running app, with search and grouping.
+- [**0.2.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.2.0) (2026-10-16): macOS system shortcuts, shortcuts from menu-bar apps' status menus, global hotkeys you have changed in Shottr, Supercharge, Rectangle and others, Raycast's main hotkey, and a new icon.
+- [**0.1.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.1.0) (2026-10-16): first test release. Lists the menu-bar shortcuts of every running app, with search and grouping.
 
-[All Keyfold releases](https://github.com/joshmuthumani/homebrew-apps/releases?q=keyfold-v&expanded=true)
+## Feedback
+
+This is an early release for a small group. Please [open an issue](https://github.com/joshmuthumani/homebrew-apps/issues) with what you see, including the app that misbehaved and your macOS version.
 
 © 2026 Josh Muthumani. All rights reserved.
