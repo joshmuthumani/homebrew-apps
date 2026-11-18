@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.5">Download v0.3.5</a> · Apple silicon · macOS 26 (Tahoe) or later
+  <a href="https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.4.0">Download v0.4.0</a> · Apple silicon · macOS 26 (Tahoe) or later
 </p>
 
 Forgot the shortcut for a command? Want to see what the same keys do in different apps? Keyfold brings your running apps’ menu shortcuts, macOS system shortcuts and supported global hotkeys into one searchable list. Each shortcut shows its app, key combination and command, with the menu path where available.
@@ -80,7 +80,7 @@ brew tap joshmuthumani/apps
 brew install --cask joshmuthumani/apps/keyfold
 ```
 
-**Or download directly:** open the [Keyfold 0.3.5 release](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.5), download `Keyfold-0.3.5.dmg`, open it, and drag **Keyfold** to **Applications**. A ZIP is also available.
+**Or download directly:** open the [Keyfold 0.4.0 release](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.4.0), download `Keyfold-0.4.0.dmg`, open it, and drag **Keyfold** to **Applications**. A ZIP is also available.
 
 **Requirements:** an Apple silicon Mac (M1 or newer) running **macOS 26 (Tahoe) or later**. Intel Macs are not supported. Keyfold is Developer ID signed and notarized by Apple, and distributed outside the Mac App Store.
 
@@ -134,6 +134,7 @@ Please remove private document names or menu titles from screenshots before shar
 
 ## Releases
 
+- [**0.4.0**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.4.0) (2026-11-18): Keyfold can now update itself, with a Check for Updates command and an on/off setting.
 - [**0.3.5**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.5) (2026-11-18): stops one slow app from holding up scans and refreshes.
 - [**0.3.4**](https://github.com/joshmuthumani/homebrew-apps/releases/tag/keyfold-v0.3.4) (2026-11-11): fixes shortcut searches and key decoding, and improves scan reliability.
 
